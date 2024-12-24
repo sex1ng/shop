@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>{{ config('app.app_name_en') }}</title>
 
         <link href="{{ asset('css/family.css') }}" rel="stylesheet" type="text/css">
 
@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Novel</div>
+                <div class="title">{{ config('app.app_name') }}</div>
             </div>
         </div>
     </body>
